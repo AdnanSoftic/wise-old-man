@@ -95,7 +95,9 @@ const nextConfig = withBundleAnalyzer(
         },
       ];
     },
-  })
+  }),
 );
+
+nextConfig.output = "standalone";
 
 module.exports = nextConfig;
